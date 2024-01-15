@@ -266,3 +266,64 @@ main section{
     background: #F00;
     cursor: pointer;
 }
+/* FOOTER Styles */
+footer {
+    margin-top: 120px;
+    background: #070211;
+    padding: 120px 0;
+}
+footer section{
+    width: 1320px;
+    margin: 0 auto;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 48px;
+}
+.contact p img{
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.contact p a{
+    color: #FFF;
+    text-decoration: none;
+}
+.social-link{
+    padding: 48px 0;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-link img{
+    width: 64px;
+    height: auto;
+}
+.copyright{
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+.copyright p a{
+    color: #FFF;
+    text-decoration: none;
+}
