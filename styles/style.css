@@ -152,3 +152,41 @@ main section{
 .time button{
     margin-top: 48px;
 }
+
+.coming-soon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 94px;
+    align-items: center;
+}
+
+.coming-soon .section-title{
+    color: #070211;
+    font-size: 48px;
+    line-height: normal;
+    margin: 16px 0 22px 0;
+}
+.coming-soon .section-para{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.coming-soon .cs-img{
+    width: 364px;
+    height: auto;
+    padding: 34px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.coming-soon .happy-new-year{
+    width: 140px;
+    height: auto;
+    margin-top: 42px;
+}
+
+.coming-soon .cs-subtitle{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
