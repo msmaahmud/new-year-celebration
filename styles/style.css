@@ -132,3 +132,23 @@ main section{
     width: 320px;
     height: auto;
 }
+/* Time styles */
+.time{
+    padding: 100px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    text-align: center;
+}
+.time-details{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.time-details span{
+    color: #F00;
+}
+.time button{
+    margin-top: 48px;
+}
